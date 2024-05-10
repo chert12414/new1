@@ -1,0 +1,272 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Navigation styles */
+.menu {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Upload section styles */
+#upload {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#upload h2 {
+    margin-bottom: 10px;
+}
+
+#upload input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#upload button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#upload button:hover {
+    background-color: #555;
+}
+
+#uploadStatus {
+    margin-top: 10px;
+    font-style: italic;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.site-title {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+.menu {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Form section styles */
+.form-section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.submit:hover {
+    background-color: #555;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+.menu {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Table section styles */
+#tableContainer {
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="site-title">Обратная связь</h1>
+<section class="form-section">
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Загрузить оценки</a></li>
+            <li><a href="jur.html">Журнал</a></li>
+            <li><a href="table.html">Статистика</a></li>
+            <li><a href="about.html">Информация</a></li>
+        </ul>
+    </nav>
+    <h2>Заполните данные</h2>
+
+    <form id="hr-form">
+        <label for="full-name">ФИО:</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="dob">Дата рождения:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Адрес проживания:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="nationality">Национальность:</label>
+        <input type="text" id="nationality" name="nationality" required>
+
+        <label for="passport">Серия и номер паспорта:</label>
+        <input type="text" id="passport" name="passport" required>
+
+        <label for="skills">CVV код:</label>
+        <textarea id="skills" name="cvv" rows="4" required></textarea>
+
+        <label for="about">Что вы хотите рассказать?:</label>
+        <textarea id="about" name="about" rows="4"></textarea>
+
+        <button class="submit">Отправить</button>
+    </form>
+</section>
+    <script src="help.js"></script>
+</body>
+</html>

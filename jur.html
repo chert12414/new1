@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Журнал оценок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Журнал оценок</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Загрузка оценок</a></li>
+            <li><a href="table.html">Статистика</a></li>
+            <li><a href="help.html">Помощь</a></li>
+            <li><a href="about.html">Информация</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section id="tableContainer">
+            <!-- Здесь будет таблица -->
+        </section>
+        <form id="addDataForm">
+            <label for="nameInput">Имя:</label>
+            <input type="text" id="nameInput" required>
+            <label for="classInput">Класс:</label>
+            <input type="text" id="classInput" required>
+            <label for="informaticsInput">Информатика:</label>
+            <input type="text" id="informaticsInput" required>
+            <label for="physicsInput">Физика:</label>
+            <input type="text" id="physicsInput" required>
+            <label for="mathematicsInput">Математика:</label>
+            <input type="text" id="mathematicsInput" required>
+            <label for="literatureInput">Литература:</label>
+            <input type="text" id="literatureInput" required>
+            <label for="musicInput">Музыка:</label>
+            <input type="text" id="musicInput" required>
+            <button type="submit">Добавить</button>
+        </form>
+    </main>
+    <script src="jur.js"></script>
+</body>
+</html>
+
